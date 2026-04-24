@@ -1,0 +1,29 @@
+{
+  "name": "smart-attendance-backend",
+  "version": "1.0.0",
+  "description": "Node.js + Firebase backend for an IoT smart attendance system",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "iot",
+    "attendance",
+    "firebase",
+    "esp32",
+    "rfid"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
